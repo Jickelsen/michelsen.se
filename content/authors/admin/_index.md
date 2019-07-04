@@ -9,6 +9,9 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
+# Pronouns
+pronouns: he/him
+
 # Role/position
 role: Researcher, Designer & Developer
 

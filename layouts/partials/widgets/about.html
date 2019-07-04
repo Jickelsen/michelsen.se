@@ -22,10 +22,10 @@
     <div class="h-card" id="profile">
 
       {{ if site.Params.gravatar }}
-      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
+      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar"></a>
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="portrait u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
+      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar"></a>
       {{ end }}
 
       <div class="portrait-title">
@@ -39,7 +39,10 @@
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
-        <h3 itemprop="jobTitle">{{ with $person.city }}<label class="p-locality">{{ . | markdownify | emojify }}</label>{{ end }}, {{ with $person.country }}<label class="p-country-name">{{ . | markdownify | emojify }}</label>{{ end }}</h3>
+        <h3 itemprop="location">{{ with $person.city }}<label class="p-locality">{{ . | markdownify | emojify }}</label>{{ end }}, {{ with $person.country }}<label class="p-country-name">{{ . | markdownify | emojify }}</label>{{ end }}</h3>
+        {{ with $person.bio }}<p class="p-note" style="display: none;">{{ . | markdownify | emojify }}</p>{{ end }}
+        {{ with site.Params.phone }}{{ $spaceless := replace . " " ""}}<p class="p-tel" style="display: none;">{{ $spaceless | markdownify | emojify }}</p>{{ end }}
+        {{ with $person.pronouns }}<a href="https://pronoun.is/{{.}}" class="u-pronoun p-pronoun p-gender-identity" style="display: none;">{{ . | markdownify | emojify }}</a>{{ end }}
       </div>
 
       <link itemprop="url" href="{{ .Permalink }}">
