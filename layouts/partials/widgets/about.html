@@ -19,26 +19,27 @@
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
   <div class="col-12 col-lg-4">
-    <div id="profile">
+    <div class="h-card" id="profile">
 
       {{ if site.Params.gravatar }}
       <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="portrait" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
+      <img class="portrait u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
       {{ end }}
 
       <div class="portrait-title">
-        <h2 itemprop="name">{{ $person.name }}</h2>
-        {{ with $person.role }}<h3 itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
+        <h2 class="p-name" itemprop="name">{{ $person.name }}</h2>
+        {{ with $person.role }}<h3 class="p-job-title p-role" itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
 
         {{ range $person.organizations }}
         <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
-          <span itemprop="name">{{ .name }}</span>
+          {{ with .url }}<a class="u-url" href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+          <span class="p-org" itemprop="name">{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
+        <h3 itemprop="jobTitle">{{ with $person.city }}<label class="p-locality">{{ . | markdownify | emojify }}</label>{{ end }}, {{ with $person.country }}<label class="p-country-name">{{ . | markdownify | emojify }}</label>{{ end }}</h3>
       </div>
 
       <link itemprop="url" href="{{ .Permalink }}">
@@ -58,7 +59,7 @@
         {{ else if in (slice "http" "https") $scheme }}
           {{ $target = "target=\"_blank\" rel=\"noopener me\"" }}
         {{ else if in (slice "mailto") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"me\"" }}
+          {{ $target = "target=\"_blank\"  class=\"u-email\" rel=\"me\"" }}
         {{ end }}
         <li>
           <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>

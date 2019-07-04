@@ -17,6 +17,12 @@ organizations:
 - name: RISE, Research Institutes of Sweden
   url: "https://www.ri.se/en/jacob-michelsen"
 
+# City
+city: Göteborg
+
+# Country
+country: Sweden
+
 # Short bio (displayed in user profile at end of posts)
 bio: Interaction designer focused on IoT and the spectrum of augmented and virtual reality. Has sent things into space.
 
