@@ -22,7 +22,7 @@
     <div class="h-card" id="profile">
 
       {{ if site.Params.gravatar }}
-      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar"></a>
+      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait u-photo" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar"></a>
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "250x250 Center" }}
       <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar"></a>
