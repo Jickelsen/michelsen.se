@@ -27,7 +27,7 @@
           {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
-    <time class="dt-published">{{ $date }}</time>
+    <a href="{{ $page.Permalink | safeURL }}" class="u-url"><time class="dt-published">{{ $date }}</time></a>
   </span>
   {{ end }}
 

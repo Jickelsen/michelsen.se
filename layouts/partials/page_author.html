@@ -27,11 +27,13 @@
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   <div class="media author-card h-card" itemscope itemtype="http://schema.org/Person">
     {{ if and site.Params.gravatar .Params.email }}
-      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait mr-3 u-photo" src="https://s.gravatar.com/avatar/{{ md5 .Params.email }}?s=200')" itemprop="image" alt="Avatar"></a>
+      <a href="https://michelsen.se" class="u-url"><img class="portrait mr-3 u-photo" src="https://s.gravatar.com/avatar/{{ md5 .Params.email }}?s=200')" itemprop="image" alt="Avatar"></a>
     {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <a href="https://michelsen.se" class="u-url u-uid"><img class="portrait mr-3 u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar"></a>
+      <a href="https://michelsen.se" class="u-url"><img class="portrait mr-3 u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar"></a>
     {{ end }}
+
+    <a href="{{ .Permalink | safeURL }}" class="u-url u-uid" style="display: none;"></a>
 
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a class="p-author p-name" href="{{$profile_url}}">{{.Params.name}}</a></h5>
