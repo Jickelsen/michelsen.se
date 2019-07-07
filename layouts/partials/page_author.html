@@ -33,10 +33,10 @@
       <a href="https://michelsen.se" class="u-url"><img class="portrait mr-3 u-photo" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar"></a>
     {{ end }}
 
-    <a href="{{ .Permalink | safeURL }}" class="u-url u-uid" style="display: none;"></a>
+    <a href="{{ $.Permalink | safeURL }}" class="u-url u-uid" style="display: none;"></a>
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a class="p-author p-name" href="{{$profile_url}}">{{.Params.name}}</a></h5>
+      <h5 class="card-title" itemprop="name"><a class="p-name" href="{{$profile_url}}">{{.Params.name}}</a></h5>
       {{ with .Params.role }}<h6 class="card-subtitle p-job-title p-role">{{. | markdownify | emojify}}</h6>{{end}}
       {{ with .Params.bio }}<p class="card-text p-note" itemprop="description">{{. | markdownify | emojify}}</p>{{end}}
       <ul class="network-icon" aria-hidden="true">
