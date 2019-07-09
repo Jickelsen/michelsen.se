@@ -60,6 +60,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/jickelsen
+- icon: flickr
+  icon_pack: fab
+  link: https://www.flickr.com/photos/jickel/
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/jickelsen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
