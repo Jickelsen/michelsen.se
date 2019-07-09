@@ -8,6 +8,7 @@
 
     <div class="article-style e-content" itemprop="articleBody">
       {{ .Content }}
+      {{ partial "bridgy" . }}
     </div>
 
     {{ partial "tags.html" . }}
@@ -34,7 +35,6 @@
     </div>
     {{ end }}
 
-    {{ partial "bridgy" . }}
     {{ partial "comments.html" . }}
     {{ partial "webmentions" . }}
 
