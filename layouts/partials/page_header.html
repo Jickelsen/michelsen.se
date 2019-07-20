@@ -37,18 +37,22 @@
 {{/* Determine image placement. */}}
 {{ $placement := .Params.image.placement | default 1 }}{{/* Default to full column width. */}}
 {{ $image_container := "" }}
+{{ $image_width := 720}}
 {{ if eq $placement 2}}
   {{ $image_container = "container" }}
-  {{ if gt $featured.Width 1200 }}
-    {{ $image = $featured.Resize "1200x" }}
+  {{ $image_width = 1200}}
+  {{ if or (gt $featured.Width 1920) (gt $featured.Height 1920)  }}
+    {{ $image = $featured.Fit "1920x1920" }}
   {{ end }}
 {{else if eq $placement 3}}
+  {{ $image_width = 2560}}
   {{ $image_container = "container-fluid" }}
   {{ $image := $featured.Fit "2560x2560" }}
 {{else}}
   {{ $image_container = "article-container" }}
-  {{ if gt $featured.Width 720 }}
-    {{ $image = $featured.Resize "720x" }}
+  {{ $image_width = 720}}
+  {{ if or (gt $featured.Width 1920) (gt $featured.Height 1920)  }}
+    {{ $image = $featured.Fit "1920x1920" }}
   {{ end }}
 {{end}}
 
@@ -65,9 +69,9 @@
 </div>
 
 {{/* Featured image */}}
-<div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
+<div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image_width}}px;">
   <div style="position: relative">
-    <img src="{{ $image.RelPermalink }}" alt="" class="featured-image u-featured">
+    <img src="{{ $image.RelPermalink }}" alt="" class="featured-image u-featured u-photo">
     {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
   </div>
 </div>
