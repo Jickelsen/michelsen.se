@@ -1,7 +1,7 @@
 ---
 title: Under construction
 subtitle: WIP
-summary: Just a placeholder post until I get more stuff sorted.
+summary: Perpetually so
 date: "2019-07-03T20:00:00+02:00"
 
 reading_time: true  # Show estimated reading time?
@@ -27,7 +27,6 @@ header:
   image: "posts/under_construction.jpg"
 
 posse:
-  - twitter
 ---
 
-Add your *content* here...
+Hello, and welcome to my personal site. This will serve as a catch-all for my posting online, and also as a platform to experiment with [indieweb](https://indieweb.org) technologies.

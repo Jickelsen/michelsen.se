@@ -1,0 +1,70 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row">
+  {{ if ne $columns "1" }}
+    <div class="col-12 col-lg-4 section-heading">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+    <div class="col-12 col-lg-8">
+      <script type="text/javascript" src="http://micro.blog/sidebar.js?username=jickelsen"></script>
+      <style>
+        div.microblog_post {
+          padding-bottom: 3ex;
+        }
+        
+        div.microblog_text p {
+            margin-bottom: 0px;
+        }
+        
+        div.microblog_text img {
+            margin-top: 0.5ex;
+        }
+        
+        div.microblog_time {
+            font-family: "Museo Sans", "museo-sans", Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #585858;
+        
+            padding-bottom: 1ex;
+            border-bottom: 1px #8C221B solid;
+            box-shadow: 0px 1px #ededed;
+        }
+      </style>
+      {{ $st.Content }}
+    </div>
+  {{ else }}
+    <div class="col-lg-12">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      <script type="text/javascript" src="http://micro.blog/sidebar.js?username=jickelsen"></script>
+      <style>
+        div.microblog_post {
+          padding-bottom: 3ex;
+        }
+        
+        div.microblog_text p {
+            margin-bottom: 0px;
+        }
+        
+        div.microblog_text img {
+            margin-top: 0.5ex;
+        }
+        
+        div.microblog_time {
+            font-family: "Museo Sans", "museo-sans", Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            color: #585858;
+        
+            padding-bottom: 1ex;
+            border-bottom: 1px #8C221B solid;
+            box-shadow: 0px 1px #ededed;
+        }
+      </style>
+      {{ $st.Content }}
+    </div>
+  {{ end }}
+</div>

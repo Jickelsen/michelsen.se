@@ -82,6 +82,8 @@ email: ""
 # - Visitors
 ---
 
-Interaction designer with focus on visualization, games and network technology. Currently at [RISE](https://ri.se), where I have I have worked extensively with virtual reality and augmented reality to enable citizen dialogue, museum learning experiences, and location-based storytelling.
+Interaction designer with focus on visualization, games and network technology. Currently at [RISE](https://ri.se). 
 
-My current focus is on IoT (Internet of Things), where my background in interaction design as well as knowledge within both software and hardware comes in handy to answer the questions about how and why these technologies can be used in various contexts. This is primarily done in the project IoT Hubb Skola, focusing on the use of technology in school environments.
+I have I have worked extensively with virtual reality and augmented reality to enable citizen dialogue, museum learning experiences, and location-based storytelling.
+
+My current focus is on IoT (Internet of Things), where I get to use my background in interaction design and experience in prototyping with both software and hardware to answer the questions about how and why these technologies can be used in various contexts. This is primarily done in the project [IoT Hubb Skola](http://iothub.se), focusing on the use of technology in school environments.
