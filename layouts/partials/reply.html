@@ -1,0 +1,9 @@
+{{ if isset .Params "in_reply_to" }}
+  In reply to
+  <blockquote>
+    <p><img class="reply-pic" width="48" height="48" src="{{ .Params.in_reply_to.profile_pic }}"><a class="u-in-reply-to" href="{{ .Params.in_reply_to.url }}">
+      {{ .Params.in_reply_to.name }}
+    </a></p>
+    <p>{{ .Params.in_reply_to.text}}</p>
+  </blockquote>
+{{ end }}

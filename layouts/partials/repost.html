@@ -1,0 +1,9 @@
+{{ if isset .Params "repost_of" }}
+  <a href="https://twitter.com/jickelsen">@Jickelsen</a> reposted
+  <blockquote>
+    <p><img class="reply-pic" width="48" height="48" src="{{ .Params.repost_of.profile_pic }}"><a class="u-repost-of" href="{{ .Params.repost_of.url }}">
+      {{ .Params.repost_of.name }}
+    </a></p>
+    <p>{{ .Params.repost_of.text}}</p>
+  </blockquote>
+{{ end }}

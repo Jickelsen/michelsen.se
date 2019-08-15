@@ -1,0 +1,10 @@
+{{ if isset .Params "quote_of" }}
+  <blockquote>
+    <cite class="h-cite u-quotation-of">
+      <p><img class="reply-pic" width="48" height="48" src="{{ .Params.quote_of.profile_pic }}"><a class="u-url" href="{{ .Params.quote_of.url }}">
+        {{ .Params.quote_of.name }}
+      </a></p>
+      <p>{{ .Params.quote_of.text}}</p>
+    </cite>
+  </blockquote>
+{{ end }}

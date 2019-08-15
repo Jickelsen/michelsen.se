@@ -1,0 +1,12 @@
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #1bc7d8;
+}
+
+.reply-pic {
+    margin: 0 0.5rem 0 0 !important;
+    display: inline-block;
+    border-radius: 24px;
+}

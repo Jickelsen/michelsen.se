@@ -1,0 +1,9 @@
+{{ if isset .Params "like_of" }}
+  <a href="https://twitter.com/jickelsen">@Jickelsen</a> liked
+  <blockquote>
+    <p><img class="reply-pic" width="48" height="48" src="{{ .Params.like_of.profile_pic }}"><a class="u-like-of" href="{{ .Params.like_of.url }}">
+      {{ .Params.like_of.name }}
+    </a></p>
+    <p>{{ .Params.like_of.text}}</p>
+  </blockquote>
+{{ end }}

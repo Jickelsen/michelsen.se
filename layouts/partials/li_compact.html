@@ -31,7 +31,9 @@
   <div class="media-body h-entry">
 
     <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="{{ $item.RelPermalink }}" itemprop="url" class="p-name u-url u-uid">{{ $item.Title }}</a>
+      {{ if ne .Type "note" }}
+       <a href="{{ $item.RelPermalink }}" itemprop="url" class="p-name u-url u-uid">{{ $item.Title }}</a>
+      {{ end }}
     </h3>
 
     {{ with $summary }}
