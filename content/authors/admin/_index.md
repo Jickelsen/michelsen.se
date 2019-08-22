@@ -27,7 +27,7 @@ city: Göteborg
 country: Sweden
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interaction designer focused on IoT and the spectrum of augmented and virtual reality. Has sent things into space.
+bio: Interaction designer focused on IoT and the spectrum of augmented and virtual reality. Accomplice in squid space conquest.
 
 interests:
 - Games and visualizations
