@@ -24,5 +24,3 @@ image:
 posse:
   - twitter
 ---
-
-![](subnautica-base.jpg)
