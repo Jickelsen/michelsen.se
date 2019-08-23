@@ -1,6 +1,6 @@
 ---
 title: Subnautica, what a ride
-summary: "I recently played through Subnautica, but it was only during the last third of the game I tried (and stuck to) playing in VR. It was almost as janky as Elite Dangerous with the DK2 but wow, the places and depths I've been to! And the harrowing trips to get there!"
+summary: "I recently played through Subnautica, but it was only during the last third of the game I tried (and stuck to) playing in VR. It was almost as janky as Elite Dangerous with the DK2 but wow, the places and depths I've been to!"
 categories: [notes]
 date: "2019-08-23T21:20:00+02:00"
 
