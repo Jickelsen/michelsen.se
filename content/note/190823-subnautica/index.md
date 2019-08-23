@@ -25,4 +25,4 @@ posse:
   - twitter
 ---
 
-![My pretty boys Räk-Anders and Havs-Erik](subnautica-base.jpg)
+![](subnautica-base.jpg)
