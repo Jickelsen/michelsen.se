@@ -1,0 +1,13 @@
+{{ $cols := split .Inner "||" }}
+
+{{ range $elem_index, $elem_val := $cols }}
+    {{if eq $elem_index 0}}
+        <div style="display: flex; align-items: flex-end; margin: 0 0.5em">
+    {{else if eq $elem_index (sub (len $cols) 1) }}
+        </div>
+    {{else}}
+        <div style="margin: 0 0.5em">
+            {{ $elem_val | markdownify }}
+        </div>
+    {{ end }}
+{{ end }}
