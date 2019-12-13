@@ -1,7 +1,9 @@
 ---
-title: Falafel
-subtitle:  Lomo'Instant Automat Glass
-summary: One of the great things about partying in Malmö is that cheap vegan food is always just around the corner when you need it \#Polaroidfriday
+title: Fast Food
+subtitle:  Lomo'Instant Automat Glass with colored flash
+summary: One of the great things about Malmö is that cheap vegan food is always just around the corner when you need it. However, pro-tier partygoers add their own protein! \#Polaroidfriday \#instax
+tags:
+
 tags:
 - Instax
 - LomoInstantAutomatGlass
@@ -33,4 +35,4 @@ posse:
   - flickr
 ---
 
-One of the great things about partying in Malmö is that cheap vegan food is always just around the corner when you need it.
+One of the great things about Malmö is that cheap vegan food is always just around the corner when you need it. However, pro-tier partygoers add their own protein!
