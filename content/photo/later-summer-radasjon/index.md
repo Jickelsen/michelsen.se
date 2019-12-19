@@ -7,8 +7,6 @@ tags:
 - iPhoneXR
 - nature
 - Göteborg
-- film emulation
-- Kodak Gold
 categories: [photography]
 date: "2019-12-19T19:00:00+02:00"
 
@@ -40,4 +38,6 @@ Another throwback, another lake. The last swim of the summer, at Rådasjön with
 ![](radasjon3.jpg)
 ![](radasjon4.jpg)
 ![](radasjon5.jpg)
+![](radasjon6.jpg)
+![](radasjon7.jpg)
 
