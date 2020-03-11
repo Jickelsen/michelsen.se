@@ -1,14 +1,17 @@
 ---
-title: Kodak Moments?
+title: Rides
 subtitle: Yashica Electro 35 with Kodak Gold 200
-summary: Every photo captures a moment but some of these were extra passionate, unlucky, fun or fortunate. Speaking of which, who could possibly have dropped their wallet and was relieved enough to take a photo upon finding it? \#kodakgold
+summary: Some sweet rides. Just don't forget about the trusty old shanks' mare (dom gamla goa apostlahästarna)! \#KodakGold
 tags:
 - Electro35
 - Göteborg
 - film
+- scooter
+- Vespa
+- moped
 - Kodak Gold 200
 categories: [photography]
-date: "2020-03-07T14:00:00+02:00"
+date: "2020-03-11T10:30:00+02:00"
 
 reading_time: false  # Show estimated reading time?
 share: true # Show social sharing links?
@@ -31,10 +34,10 @@ posse:
   - twitter
 
 ---
-Every photo captures a moment, but some of these were extra passionate, unlucky, fun, or fortunate. Speaking of which, who could possibly have dropped their wallet and was relieved enough to take a photo upon finding it?
+Some sweet rides. Just don't forget about the trusty old shanks' mare (dom gamla goa apostlahästarna)!
 
-![](kodak-moment-maybe2.jpg)
-![](kodak-moment-maybe3.jpg)
-![](kodak-moment-maybe4.jpg)
-![](kodak-moment-maybe5.jpg)
-![](kodak-moment-maybe6.jpg)
+![](rides2.jpg)
+![](rides3.jpg)
+![](rides4.jpg)
+![](rides5.jpg)
+![](rides6.jpg)
