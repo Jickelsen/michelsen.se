@@ -1,7 +1,7 @@
 ---
 title: Crossing the Lake
 subtitle: Yashica Electro 35 with Kodak Gold 200
-summary: Remember when we used to go to work? \#KodakGold \#YashicaElectro35
+summary: Now these seem like images from another time \#KodakGold \#YashicaElectro35
 tags:
 - Electro35
 - Göteborg
@@ -33,12 +33,12 @@ posse:
   - twitter
 
 ---
-Remember when we used to go to work?
+Now these seem like images from another time
 
 ![](crossing2.jpg)
 ![](crossing3.jpg)
 
-... and now it looks like we're not even going to be doing it on these cable cars in the future! Sad times...
+... and it looks like we're not even going to be crossing the lake in these cable cars once we're back out! Sad times...
 
 ![](crossing4.jpg)
 ![](crossing5.jpg)
