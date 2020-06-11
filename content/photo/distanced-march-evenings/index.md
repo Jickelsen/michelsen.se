@@ -6,6 +6,8 @@ tags:
 - Göteborg
 - nature
 - sunset
+- bike
+- Leica M8
 - 7Artisans 50mm f/1.1
 categories: [photography]
 date: "2020-06-08T12:00:00+02:00"
