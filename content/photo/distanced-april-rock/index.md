@@ -1,7 +1,7 @@
 ---
 title: Distanced April - Rock
 subtitle: 7Artisans 50mm f/1.1 and speedboosted Canon lenses
-summary: Took a break over summer, but now I'm back to uploading again. April didn't rock but here is some rock. Many of these were taken just a short walk away, I'm very grateful to have such have beautiful nature just next door!
+summary: Took a break over summer, but now I'm back to uploading again. April didn't rock but here is some rock. Many of these were taken just a short walk away, I'm very grateful to have such beautiful nature just next door!
 tags:
 - Göteborg
 - Fujifilm
@@ -36,7 +36,7 @@ posse:
 
 April didn't rock but here is some rock. 
 
-Many of these were taken just a short walk away, I'm very grateful to have such have beautiful nature just next door!
+Many of these were taken just a short walk away, I'm very grateful to have such beautiful nature just next door!
 
 ![](april-rock2.jpg)
 ![](april-rock3.jpg)
