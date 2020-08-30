@@ -1,6 +1,6 @@
 ---
 title: Distanced April - Tickor
-subtitle: Canon 50mm f/1.8 on a Viltrox 0.71x speedbooster
+subtitle: Canon 50mm f/1.8 on a Viltrox 0.71x speedbooster and 7Artisans 50mm f/1.1 
 summary: I don't think I'm alone in thinking March lasted forever and April just flew past. I just learnt these are called polypores in English.
 tags:
 - Göteborg
@@ -8,6 +8,8 @@ tags:
 - nature
 - mushrooms
 - Viltrox
+- Leica M8
+- 7Artisans 50mm f/1.1
 categories: [photography]
 date: "2020-06-22T12:00:00+02:00"
 
@@ -38,6 +40,7 @@ I just learnt these are called polypores in English.
 
 ![](april-tickor2.jpg)
 ![](april-tickor3.jpg)
+![](april-tickor4.jpg)
 
 Bonus with a different treatment.
-![](april-tickor4.jpg)
+![](april-tickor5.jpg)
