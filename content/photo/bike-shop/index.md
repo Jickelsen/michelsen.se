@@ -6,6 +6,7 @@ tags:
 - Polaroid
 - SX-70
 - polaroidfriday
+- monochrome
 - Jönköping
 categories: [photography]
 date: "2019-12-06T08:00:00+02:00"

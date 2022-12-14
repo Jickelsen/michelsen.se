@@ -51,7 +51,7 @@
 {{else}}
   {{ $image_container = "article-container" }}
   {{ $image_width = 720}}
-  {{ if or (gt $featured.Width 1920) (gt $featured.Height 1920)  }}
+  {{ if or (gt $featured.Width 960) (gt $featured.Height 960)  }}
     {{ $image = $featured.Fit "1920x1920" }}
   {{ end }}
 {{end}}

@@ -1,7 +1,7 @@
 ---
 title: The Trams of Stigberget
 subtitle: Majorna at Night. 85mm (120mm) 1.8 on 0.71x speedbooster.
-summary: Our trams are such an easy target for nighttime shots. Canon 85mm (120mm) 1.8 with 0.71x speedbooster, and Jamie Windsor's Fujichrome Astia emulation. Super happy how well these chunky Canon lenses work on my MFT cameras!
+summary: Our trams are such a rewarding target for nighttime shots. Canon 85mm (120mm) 1.8 with 0.71x speedbooster, and Jamie Windsor's Fujichrome Astia emulation. Super happy how well these chunky Canon lenses work on my MFT cameras!
 tags:
 - 120mm
 - E-M5
@@ -34,7 +34,6 @@ posse:
 ---
 
 Our trams are such an easy target for nighttime photography. 
-
 ![](trams2.jpg)
 ![](trams3.jpg)
 ![](trams4.jpg)
